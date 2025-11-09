@@ -1,0 +1,184 @@
+html{
+        scroll-behavior: smooth;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color:  #F5EBDD;
+      color:#2C2C2C;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      margin: auto;
+      padding: 1rem 2rem;
+      font-weight: bold;
+    }
+
+    .logo {
+      font-family: "Playfair Display", serif;
+      font-size: 1.8rem;
+      color:#6F4E37;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-right: 20px;
+      margin-left: 40px;
+      font-size: 20px;
+      text-decoration: none;
+      color: #2C2C2C;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color:#6F4E37;
+      background-color: #C68A55;
+      border-radius: 3px;
+
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1600&auto=format&fit=crop') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-family: "Playfair Display", serif;
+    }
+
+    .hero p {
+      margin: 1rem 0 2rem;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      background-color:#6F4E37;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #C68A55;
+    }
+
+    .about {
+      max-width: 1100px;
+      margin: 80px auto;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 0 2rem;
+    }
+
+    .about img {
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .about-text h2 {
+      font-family: "Playfair Display", serif;
+      margin-bottom: 10px;
+      color: #6F4E37;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .about-text p{
+        font-size: 25px;
+    }
+    .about-text p:hover{
+        background-color: #C68A55;
+        font-weight: bold;
+    }
+
+    .menu {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .menu h2 {
+      font-family: "Playfair Display", serif;
+      color: #6F4E37;
+      margin-bottom: 40px;
+      font-size: 60px;
+    }
+
+    .menu-items {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 270px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .menu-item {
+      background-color: #F5EBDD;
+      padding: 20px;
+      width: 15%;
+      height: 600px;
+      border-radius: 10px;
+      
+    }
+    .menu-item:hover{
+        scale: 1.04;
+        transition: ease 0.5s;
+        box-shadow: 0 0 10px 10px #6F4E37;
+    }
+
+    .menu-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .menu-item h3 {
+      color:#6F4E37;
+      margin-bottom: 5px;
+    }
+
+    footer {
+        font-size: 20px;
+      background-color: #2C2C2C;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
